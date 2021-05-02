@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Website bán laptop</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="assets/css/base.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/grid.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="app">
+		<!-- header -->
+		<header class="header">
+			<div class="grid wide">
+
+				<!-- header navbar -->
+				<nav class="header__navbar">
+
+					<!-- header navbar left -->
+					<ul class="header__navbar-list">
+						
+						<li class="header__navbar-item">
+							<span class="header__navbar-item-no-pointer">Kết nối</span>
+							<a href="https://www.facebook.com/nguyenlevinhbn99/" class="header__navbar-icon-link" target="_blanks">
+								<i class="header__navbar-icon fab fa-facebook"></i>
+							</a>
+							<a href="https://www.facebook.com/nguyenlevinhbn99/" class="header__navbar-icon-link" target="_blanks">
+								<i class="header__navbar-icon fab fa-instagram"></i>
+							</a>
+						</li>
+					</ul>
+					<!--rnd header navbar left -->
+
+					<!-- header navbar right -->
+					<ul class="header__navbar-list">
+						<li class="header__navbar-item header__navbar-item-has-notity">
+							<a href="#" class="header__navbar-item-link">
+								<i class="header__navbar-icon far fa-bell"></i>
+								Thông tin
+							</a>
+							<div class="header__notify">
+								<header class="header__notify-header">
+									<h3>Thông tin mới</h3>
+								</header>
+								<ul class="header__notify-list">
+									<li class="header__notify-item header__notify-item-viewed">
+										<a href="https://mac365.vn/9-dong-mac-tot-nhat/" class="header__notify-link" target="_blanks">
+											<img src="assets/img/tb_img_1.jpg" alt="" class="header__notify-img">
+											<div class="header__notify-info">
+												<div class="header__notify-name">9 dòng Macbook đáng mua nhất 2021</div>
+												<div class="header__notify-descrition">Những chiếc Macbook và máy Mac được xem là tốt nhất khi được kết hợp giữa một thiết kế thanh lịch và một cấu trúc với một số bộ phận mạnh mẽ bên trong.</div>
+											</div>
+										</a>
+									</li>
+									<li class="header__notify-item header__notify-item-viewed">
+										<a href="https://laptoptitan.vn/tong-hop-15-laptop-tot-nhat-cho-sinh-vien-2020/" class="header__notify-link">
+											<img src="assets/img/tb_img_2.jpg" alt="" class="header__notify-img">
+											<div class="header__notify-info">
+												<div class="header__notify-name">Những dòng máy tính phù hợp với sinh viên</div>
+												<div class="header__notify-descrition">Nếu bạn là sinh viên, bạn sẽ cần một laptop hài hòa giữa việc học và giải trí. </div>
+											</div>
+										</a>
+									</li>
+									<li class="header__notify-item header__notify-item-viewed">
+										<a href="https://mac365.vn/9-dong-mac-tot-nhat/" class="header__notify-link" target="_blanks">
+											<img src="assets/img/tb_img_3.jpg" alt="" class="header__notify-img">
+											<div class="header__notify-info">
+												<div class="header__notify-name">Những dòng laptop gaming tốt nhất</div>
+												<div class="header__notify-descrition"> Nhờ đồ họa mạnh mẽ, màn hình tuyệt đẹp và âm thanh tuyệt vời, máy tính xách tay chơi game mang đến trải nghiệm giải trí tuyệt vời trong một gói di động. </div>
+											</div>
+										</a>
+									</li>
+								</ul>
+								<div class="header__notify-footer">
+									<a href="#" class="header__notity-footer-link">Xem tất cả</a>
+								</div>
+							</div>
+						</li>
+						<li class="header__navbar-item">
+							<a href="#" class="header__navbar-item-link">
+								<i class="header__navbar-icon far fa-question-circle"></i>
+								Trợ giúp
+							</a>
+						</li>	
+
+						<li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">
+							<a href="register.html" class="header__navbar-item-link">Đăng ký</a>
+						</li>
+							<li class="header__navbar-item header__navbar-item--strong">
+								<a href="login.html" class="header__navbar-item-link">Đăng nhập</a>
+							</li>
+						</ul>
+						<!--end header navbar right -->
+					</nav>
+
+					<!-- end header-navbar -->
+
+
+					<!-- header-search -->
+					<div class="header-with-search">
+						
+						<label for="header-bars-input" class="header__bars-btn">
+							<i class="fas fa-bars header__bars-icon"></i>
+						</label>
+						
+						<input type="checkbox" class="header__bars-input" id="header-bars-input">
+
+						<label for="header-bars-input" class="modal">
+							<div class="modal__overlay"></div>
+						</label>
+						<!-- logo -->
+						<div class="header__logo">
+							<a href="#" class="header__logo-link">
+								<img class="header__logo-img" src="./assets/img/logo.png" alt="">
+							</a>
+						</div>
+
+						<!-- end logo -->
+
+						<!-- search -->
+						<div class="header__search">
+							<div class="header__search-input-wrap">
+								<input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm tại đây">
+
+								<div class="header__search-history">
+									<h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+									<ul class="header__search-history-list">
+										<li class="header__search-history-item">
+											<a href="#">acer</a>
+										</li>
+										<li class="header__search-history-item">
+											<a href="#">core i5</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							
+
+							<button class="header__search-btn">
+								<i class="fas fa-search header__search-btn-icon"></i>
+							</button>
+
+						</div>
+						<!--end search -->
+
+						<!-- cart -->
+						<div class="header__cart">
+							<div class="header__cart-wrap">
+								<span class="header__cart-notice">
+									1
+								</span>
+								<i class="fas fa-shopping-cart header__cart-icon"></i>
+								<div class="header__cart-list">
+									<!-- no cart: header__cart-list--no-cart -->
+									<img src="assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+									<p class="header__cart-no-cart-msg">
+										Chưa có sản phẩm
+									</p>
+
+									<h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+									<ul class="header__cart-list-item">
+										<li class="header__cart-item">
+											<img src="assets/img/prd_img_1.png" class="header__cart-img">
+											<div class="header__cart-item-info">
+												<div class="header__cart-item-head">
+													<h5 class="header__cart-item-name">Laptop Acer Aspire 3 A315-57G-524Z i5 1035G1/8GB/512GB SSD/MX330-2G/Win10</h5>
+													<div class="header__cart-item-price-wrap">
+														<span class="header__cart-item-price">16.590.000đ</span>
+														<span class="header__cart-item-multiply">x</span>
+														<span class="header__cart-item-qnt">1</span>
+													</div>
+												</div>
+												<div class="header__cart-item-body">
+													<span class="header__cart-item-description">
+														Dòng: <span class="header__cart-item-classify">Acer</span>
+													</span>
+													<span class="header__cart-item-remove">Xóa</span>
+												</div>
+											</div>
+										</li>
+										
+									</ul>
+									<button class="btn btn--primary header__cart-view-cart">
+										Xem giỏ hàng
+									</button>
+								</div>
+							</div>
+						</div>
+						<!--end cart -->
+					</div>
+
+					<!--end header-search -->
+				</div>
+			</div>
+			<ul class="header__sort-bar">
+				<li class="header__sort-item">
+					<a href="#" class="header__sort-link">Liên quan</a>
+				</li>
+
+				<li class="header__sort-item header__sort-item--active">
+					<a href="#" class="header__sort-link">Mới nhất</a>
+				</li>
+
+				<li class="header__sort-item">
+					<a href="#" class="header__sort-link">Bán chạy</a>
+				</li>
+
+				<li class="header__sort-item">
+					<a href="#" class="header__sort-link">Giá</a>
+				</li>
+			</ul>
+
+		</header>
+		<!--end header -->
+
+		<!-- container -->
+		<div class="app__container">
+			<div class="grid wide">
+				<div class="row sm-gutter app__content">
+
+					<!-- aside -->
+					<div class="col l-2 m-0 c-0">
+						<nav class="category">
+							<h3 class="category__heading">
+								<i class="category__heading-icon"></i>
+									Hãng sản xuất
+							</h3>
+							<ul class="category-list">
+								<li class="category-item">
+									<a href="#" class="category-item__link">Tất cả</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">Apple</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">Acer</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">Dell</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">HP</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">Lenovo</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">MSI</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">Microsoft</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					
+					<!-- end aside -->
+
+					<!-- article -->
+					<div class="col l-10 m-12 c-12">
+
+						<!-- home filter -->
+						<div class="home-filter">
+							<span class="home-filter__label">
+								Sắp xếp theo
+							</span>
+							<button class="btn home-filter__btn">Phổ biến</button>
+							<button class="btn home-filter__btn">Mới nhất</button>
+							<button class="btn home-filter__btn">Bán chạy</button>
+
+							<div class="select-input">
+								<span class="select-input__label">Giá</span>
+								<i class="fas fa-chevron-down select-input__icon"></i>
+								<ul class="select-input__list">
+									<li class="select-input__item">
+										<a href="#" class="select-input__link">Giá: Thấp đến cao</a>
+									</li>
+									<li class="select-input__item">
+										<a href="#" class="select-input__link">Giá: Cao đến thấp</a>
+									</li>
+
+								</ul>
+							</div>
+
+							<div class="home-filter__page">
+								<span class="home-filter__page-num">
+									<span class="home-filter__page-current">1</span>/
+									<span class="home-filter__page-total">14</span>
+								</span>
+								<div class="home-filter__page-control">
+									<a href="#" class="home-filter__page-btn home-filter__page-btn--disable">
+										<i class="fas fa-angle-left home-filter__page-icon"></i>
+									</a>
+									<a href="#" class="home-filter__page-btn">
+										<i class="fas fa-angle-right home-filter__page-icon"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!--end home filter -->
+						
+					
+						<!-- product -->
+						<div class="home-product">
+							<div class="row sm-gutter">
+								<!-- product item -->
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(assets/img/prd_img_3.jpg)">
+										</div>
+										<h4 class="home-product-item-name">Laptop Microsoft Surface Pro 7 i7 1065G7/16GB/256GB SSD/12.3"Touch/Win 10</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">39.990.000₫</span>
+											<span class="home-product-item__price-current">39.790.000đ</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+			
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Microsoft</span>
+											<span class="home-product-item__origin-name">Mỹ</span>
+										</div>
+										
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(assets/img/prd_img_2.jpg)">
+										</div>
+										<h4 class="home-product-item-name">MacBook Pro 16" 2019 Touch Bar 2.3GHz Core i9 1TB</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-current">69.990.000đ</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+			
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Apple</span>
+											<span class="home-product-item__origin-name">Mỹ</span>
+										</div>
+										
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(assets/img/prd_img_4.jpg)">
+										</div>
+										<h4 class="home-product-item-name"> Laptop Dell XPS 13 9310 i5 1135G7/8GB/256GB/13.4"FHDTouch/Win 10</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">40.990.000₫</span>
+											<span class="home-product-item__price-current">40.790.000đ</span>			
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+			
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Dell</span>
+											<span class="home-product-item__origin-name">Mỹ</span>
+										</div>
+										
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(assets/img/prd_img_5.jpg)">
+										</div>
+										<h4 class="home-product-item-name">Lenovo IdeaPad 3 15ADA05 R3 3250U/4GB/256GB/15.6"FHD/Win 10 </h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old"></span>
+											<span class="home-product-item__price-current">9.990.000đ</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--none"></i>
+												<i class="fas fa-star home-product-item__star--none"></i>
+											</div>
+			
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Lenovo</span>
+											<span class="home-product-item__origin-name">Trung Quốc</span>
+										</div>
+										
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(assets/img/prd_img_6.jpg)">
+										</div>
+										<h4 class="home-product-item-name">Laptop Acer Nitro 5 AN515 55 5923 i5 10300H/8GB/512GB SSD//Win 10</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">21.990.000₫</span>
+											<span class="home-product-item__price-current">21.790.000đ</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+			
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Acer</span>
+											<span class="home-product-item__origin-name">Đài Loan</span>
+										</div>
+										
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(assets/img/prd_img_1.png)">
+										</div>
+										<h4 class="home-product-item-name">Laptop Acer Aspire 3 A315-57G-524Z i5 1035G1/8GB/512GB SSD/MX330-2G/Win10</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">16.790.000đ</span>
+											<span class="home-product-item__price-current">16.590.000đ</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--none"></i>
+											</div>
+			
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Acer</span>
+											<span class="home-product-item__origin-name">Đài Loan</span>
+										</div>
+										
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(assets/img/prd_img_7.jpg)">
+										</div>
+										<h4 class="home-product-item-name">Laptop Asus VivoBook M413IA-EK481T R7 4700U/8GB/1TB SSD/WIN10</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">18.990.000₫</span>
+											<span class="home-product-item__price-current">18.790.000đ</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+			
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Asus</span>
+											<span class="home-product-item__origin-name">Đài Loan</span>
+										</div>
+										
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(assets/img/prd_img_8.jpg)">
+										</div>
+										<h4 class="home-product-item-name">Laptop MSI GF63 Thin 10SCXR 052VN i7 10750H/8GB/512GB/15.6" FHD/GTX1650 MaxQ 4GB/Win 10</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">22.990.000đ</span>
+											<span class="home-product-item__price-current">22.490.000đ</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+			
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">MSI</span>
+											<span class="home-product-item__origin-name">Đài Loan</span>
+										</div>
+										
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(assets/img/prd_img_9.jpg)">
+										</div>
+										<h4 class="home-product-item-name">Laptop Acer Swift 3x SF314 510G 57MR i5 1135G7/8G/512GSSD/Intel Iris Xe Max 4GB/Win10</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">22.990.000đ</span>
+											<span class="home-product-item__price-current">22.790.000đ</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+			
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Acer</span>
+											<span class="home-product-item__origin-name">Đài Loan</span>
+										</div>
+										
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(assets/img/prd_img_10.jpg)">
+										</div>
+										<h4 class="home-product-item-name">Laptop Acer Aspire Gaming A715 41G R150 R7 3750H/8GB/512GB SSD/Win 10</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">21.490.000đ</span>
+											<span class="home-product-item__price-current">21.290.000đ</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+			
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Acer</span>
+											<span class="home-product-item__origin-name">Đài Loan</span>
+										</div>
+										
+									</a>
+								</div>
+
+							</div>
+						</div>
+						<!--end product -->
+
+						<!-- pagination -->
+						<ul class="pagination home-product__pagination">
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">
+									<i class="pagination-item__icon fas fa-angle-left"></i>
+								</a>
+							</li>
+
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">1</a>
+							</li>
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">2</a>
+							</li>
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">3</a>
+							</li>
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">4</a>
+							</li>
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">5</a>
+							</li>
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">...</a>
+							</li>
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">14</a>
+							</li>
+
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">
+									<i class="pagination-item__icon fas fa-angle-right"></i>
+								</a>
+							</li>
+						</ul>
+						<!--end pagination -->
+					</div>
+					<!--end article -->
+				</div>
+			</div>
+		</div>
+		<!--end container -->
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="grid wide">
+				<div class="grid__row">
+					<div class="col l-2-4 m-4 c-6">
+						<h3 class="footer__heading">Chăm sóc khách hàng</h3>
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Trung tâm trợ giúp</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Hướng dẫn mua hàng</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col l-2-4 m-4 c-6">
+						<h3 class="footer__heading">Giới thiệu</h3>
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Giới thiệu</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Tuyển dụng</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Điều khoản</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col l-2-4 m-4 c-6">
+						<h3 class="footer__heading">Theo dõi</h3>
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">
+									<i class="fab fa-facebook footer-item__icon"></i>
+									Facebook
+								</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">
+									<i class="fab fa-instagram footer-item__icon"></i>
+									Instagram
+								</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">
+									<i class="fab fa-linkedin footer-item__icon"></i>
+								Linkedin</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col l-2-4 m-4 c-6">
+						<h3 class="footer__heading">Danh mục</h3>
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Laptop</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Phụ kiện laptop</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="grid wide">
+					<p class="footer__text">@Bài tập lớn môn Lập trình nâng cao</p>
+				</div>
+			</div>
+		</footer>
+
+		<!--end footer -->
+	</body>
+	</html>
